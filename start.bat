@@ -8,7 +8,7 @@ echo "Subindo as imagens para o registry DockerHub"
 docker push hugovasc/kub-php-backend:1.0
 docker push hugovasc/kub-meubanco:1.0
 
-echo "Criando serviços no cluster kubernetes..."
+echo "Criando servicos no cluster kubernetes..."
 
 kubectl apply -f .\service.yml
 
